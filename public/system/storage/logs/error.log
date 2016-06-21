@@ -1,0 +1,27 @@
+2015-12-14 11:01:23 - PHP Notice:  Undefined index: sort_order in D:\wamp\www\work\openCart\mercury.57634.sega.opencart\57634\theme649\system\storage\modification\admin\model\design\banner.php on line 37
+2015-12-14 14:29:41 - PHP Notice:  Undefined variable: email in D:\wamp\www\work\openCart\mercury.57634.sega.opencart\57634\theme649\catalog\view\theme\theme649\template\common\footer.tpl on line 20
+2015-12-14 14:29:41 - PHP Notice:  Undefined variable: email in D:\wamp\www\work\openCart\mercury.57634.sega.opencart\57634\theme649\catalog\view\theme\theme649\template\common\footer.tpl on line 20
+2015-12-14 14:29:42 - PHP Notice:  Undefined variable: email in D:\wamp\www\work\openCart\mercury.57634.sega.opencart\57634\theme649\catalog\view\theme\theme649\template\common\footer.tpl on line 20
+2015-12-14 14:29:42 - PHP Notice:  Undefined variable: email in D:\wamp\www\work\openCart\mercury.57634.sega.opencart\57634\theme649\catalog\view\theme\theme649\template\common\footer.tpl on line 20
+2015-12-14 14:31:06 - PHP Notice:  Undefined variable: email in D:\wamp\www\work\openCart\mercury.57634.sega.opencart\57634\theme649\catalog\view\theme\theme649\template\common\footer.tpl on line 20
+2015-12-14 14:31:06 - PHP Notice:  Undefined variable: email in D:\wamp\www\work\openCart\mercury.57634.sega.opencart\57634\theme649\catalog\view\theme\theme649\template\common\footer.tpl on line 20
+2015-12-14 14:31:07 - PHP Notice:  Undefined variable: email in D:\wamp\www\work\openCart\mercury.57634.sega.opencart\57634\theme649\catalog\view\theme\theme649\template\common\footer.tpl on line 20
+2015-12-14 14:31:07 - PHP Notice:  Undefined variable: email in D:\wamp\www\work\openCart\mercury.57634.sega.opencart\57634\theme649\catalog\view\theme\theme649\template\common\footer.tpl on line 20
+2015-12-23 10:58:40 - PHP Notice:  Undefined index: approval in D:\wamp\www\work\openCart\mercury.57634.sega.opencart\57634\theme649\catalog\model\account\customer.php on line 16
+2015-12-23 10:58:40 - PHP Notice:  Undefined index: approval in D:\wamp\www\work\openCart\mercury.57634.sega.opencart\57634\theme649\catalog\model\account\customer.php on line 32
+2015-12-23 10:58:41 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\wamp\www\work\openCart\mercury.57634.sega.opencart\57634\theme649\system\library\mail.php on line 164
+2015-12-28 9:30:45 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\wamp\www\work\openCart\mercury.57634.sega.opencart\57634\theme649\system\library\mail.php on line 164
+2015-12-29 9:22:09 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\wamp\www\work\openCart\mercury.57634.sega.opencart\57634\theme649\system\library\mail.php on line 164
+2016-06-21 16:39:17 - PHP Notice:  Undefined variable: html in /Users/fernandomendes/github/refrilar/public/catalog/view/theme/theme649/template/module/tm_newsletter_popup.tpl on line 20
+2016-06-21 16:39:18 - PHP Notice:  Undefined variable: html in /Users/fernandomendes/github/refrilar/public/catalog/view/theme/theme649/template/module/tm_newsletter_popup.tpl on line 20
+2016-06-21 16:39:33 - PHP Notice:  Undefined variable: html in /Users/fernandomendes/github/refrilar/public/catalog/view/theme/theme649/template/module/tm_newsletter_popup.tpl on line 20
+2016-06-21 16:39:34 - PHP Notice:  Undefined variable: html in /Users/fernandomendes/github/refrilar/public/catalog/view/theme/theme649/template/module/tm_newsletter_popup.tpl on line 20
+2016-06-21 16:41:46 - PHP Notice:  Undefined variable: html in /Users/fernandomendes/github/refrilar/public/catalog/view/theme/theme649/template/module/tm_newsletter_popup.tpl on line 20
+2016-06-21 16:41:46 - PHP Notice:  Undefined variable: html in /Users/fernandomendes/github/refrilar/public/catalog/view/theme/theme649/template/module/tm_newsletter_popup.tpl on line 20
+2016-06-21 16:43:39 - PHP Notice:  Undefined variable: html in /Users/fernandomendes/github/refrilar/public/catalog/view/theme/theme649/template/module/tm_newsletter_popup.tpl on line 20
+2016-06-21 16:43:40 - PHP Notice:  Undefined variable: html in /Users/fernandomendes/github/refrilar/public/catalog/view/theme/theme649/template/module/tm_newsletter_popup.tpl on line 20
+2016-06-21 16:44:57 - PHP Notice:  Undefined variable: html in /Users/fernandomendes/github/refrilar/public/catalog/view/theme/theme649/template/module/tm_newsletter_popup.tpl on line 20
+2016-06-21 16:44:58 - PHP Notice:  Undefined variable: html in /Users/fernandomendes/github/refrilar/public/catalog/view/theme/theme649/template/module/tm_newsletter_popup.tpl on line 20
+2016-06-21 16:44:59 - PHP Notice:  Undefined variable: html in /Users/fernandomendes/github/refrilar/public/catalog/view/theme/theme649/template/module/tm_newsletter_popup.tpl on line 20
+2016-06-21 16:45:24 - PHP Notice:  Undefined variable: html in /Users/fernandomendes/github/refrilar/public/catalog/view/theme/theme649/template/module/tm_newsletter_popup.tpl on line 20
+2016-06-21 16:45:25 - PHP Notice:  Undefined variable: html in /Users/fernandomendes/github/refrilar/public/catalog/view/theme/theme649/template/module/tm_newsletter_popup.tpl on line 20
