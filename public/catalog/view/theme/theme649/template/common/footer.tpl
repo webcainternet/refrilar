@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="logo-block">
-                    <a href="./"><img src="image/catalog/logo.png" alt=""></a>
+                    <a href="./"><img src="image/catalog/logo_branco.png" alt="" style="max-width: 170px; margin-left: 30px;"></a>
                 </div>
                 <address>
                     <i class="material-icons-location_on"></i>
@@ -27,7 +27,7 @@
             <?php if ($footer_top) { ?>
                 <?php echo $footer_top; ?>
             <?php } ?>
-        </div> 
+        </div>
     </div>
     <div class="container">
         <div class="row">

@@ -3,9 +3,9 @@
 $_['heading_title']				 		 = 'G2APay';
 
 // Text
-$_['text_payment']				 		 = 'Payment';
-$_['text_success']				 		 = 'Success: You have modified the G2APay details.';
-$_['text_edit']					 		 = 'Edit G2APay';
+$_['text_payment']				 		 = 'Pagamentos';
+$_['text_success']		                 = 'G2APay modificado com sucesso!';
+$_['text_edit']                          = 'Configurações do G2APay';
 $_['text_g2apay']				 		 = '<a href="https://pay.g2a.com/" target="_blank"><img src="view/image/payment/g2apay.png" alt="G2APay" title="G2APay" style="border: 1px solid #EEEEEE;" /></a>';
 
 $_['entry_username']			 		 = 'Username';
@@ -14,14 +14,14 @@ $_['entry_api_hash']		     		 = 'API Hash';
 $_['entry_environment']			 		 = 'Environment';
 $_['entry_secret_token']		 		 = 'Secret Token';
 $_['entry_ipn_url']				 		 = 'IPN URL:';
-$_['entry_total']				 		 = 'Total';
+$_['entry_total']		                 = 'Total mínimo';
 
-$_['entry_geo_zone']			 		 = 'Geo Zone';
-$_['entry_status']				 		 = 'Status';
-$_['entry_sort_order']			 		 = 'Sort Order';
+$_['entry_geo_zone']	                 = 'Região geográfica';
+$_['entry_status']                       = 'Situação';
+$_['entry_sort_order']                   = 'Posição';
 $_['entry_debug']				 		 = 'Debug logging';
 
-$_['entry_order_status']				 = 'Order Status';
+$_['entry_order_status']				 = 'Situação do pedido';
 $_['entry_complete_status']				 = 'Complete Status:';
 $_['entry_rejected_status']				 = 'Rejected Status:';
 $_['entry_cancelled_status']			 = 'Canceled Status:';
@@ -30,20 +30,21 @@ $_['entry_partially_refunded_status']	 = 'Partially Refunded Status:';
 
 // Help
 $_['help_username']						 = 'The email address used for your account';
-$_['help_total']				 		 = 'The checkout total the order must reach before this payment method becomes active.';
+$_['help_total']		                 = 'O valor mínimo que o pedido deve alcançar para que o G2APay seja oferecido como opção de pagamento ao cliente.';
 $_['help_debug']				 		 = 'Enabling debug will write sensitive data to a log file. You should always disable unless instructed otherwise';
 
 // Tab
-$_['tab_settings']				 		 = 'Settings';
-$_['tab_order_status']				 	 = 'Order Status';
+$_['tab_settings']				 		 = 'Configurações';
+$_['tab_order_status']				 	 = 'Situações do pedido';
 
 // Error
-$_['error_permission']			 		 = 'Warning: You do not have permission to modify G2APay!';
+$_['error_permission']                   = 'Atenção: Você não tem permissão para modificar a extensão de pagamento G2APay!';
+
 $_['error_email']				 		 = 'E-Mail Required!';
 $_['error_secret']				 		 = 'Secret Required!';
 $_['error_api_hash']			 		 = 'API Hash Required!';
-$_['entry_status']				 		 = 'Status';
-$_['entry_order_status']		 		 = 'Order Status';
+$_['entry_status']                       = 'Situação';
+$_['entry_sort_order']                   = 'Posição';
 
 // Order page - payment tab
 $_['text_payment_info']			 		 = 'Payment information';

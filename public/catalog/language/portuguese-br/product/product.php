@@ -38,7 +38,6 @@ $_['entry_review']             = 'Seu comentário';
 $_['entry_rating']             = 'Avaliação';
 $_['entry_good']               = 'Bom';
 $_['entry_bad']                = 'Ruim';
-$_['entry_captcha']            = 'Coloque o código da imagem no campo abaixo';
 
 // Tabs
 $_['tab_description']          = 'Descrição';
@@ -49,4 +48,3 @@ $_['tab_review']               = 'Comentários (%s)';
 $_['error_name']               = 'Atenção: Seu nome deve ter entre 3 e 25 caracteres!';
 $_['error_text']               = 'Atenção: Seu comentário deve ter entre 25 e 1000 caracteres!';
 $_['error_rating']             = 'Atenção: Faça a avaliação!';
-$_['error_captcha']            = 'Atenção: O código no campo não é o mesmo da imagem!';

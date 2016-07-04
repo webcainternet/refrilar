@@ -1,9 +1,9 @@
 <?php
 //Headings
-$_['heading_title']                 = 'Login and Pay with Amazon';
+$_['heading_title']                 = 'Acessar e pagar com Amazon';
 
 //Text
-$_['text_success']                  = 'Login and Pay with Amazon module has been updated';
+$_['text_success']		            = 'Acessar e pagar com Amazon modificado com sucesso!';
 $_['text_ipn_url']					= 'Cron Job\'s URL';
 $_['text_ipn_token']				= 'Secret Token';
 $_['text_us']						= 'US';

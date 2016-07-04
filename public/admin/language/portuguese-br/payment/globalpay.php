@@ -3,9 +3,9 @@
 $_['heading_title']					 = 'Globalpay Redirect';
 
 // Text
-$_['text_payment']				  	 = 'Payment';
-$_['text_success']					 = 'Success: You have modified Globalpay account details!';
-$_['text_edit']                      = 'Edit Globalpay Redirect';
+$_['text_payment']				  	 = 'Pagamentos';
+$_['text_success']		             = 'Globalpay Redirect modificado com sucesso!';
+$_['text_edit']                      = 'Configurações do Globalpay Redirect';
 $_['text_live']						 = 'Live';
 $_['text_demo']						 = 'Demo';
 $_['text_card_type']				 = 'Card type';
@@ -49,10 +49,10 @@ $_['text_globalpay']                 = '<a target="_blank" href="https://resourc
 $_['entry_merchant_id']				 = 'Merchant ID';
 $_['entry_secret']					 = 'Shared secret';
 $_['entry_rebate_password']			 = 'Rebate password';
-$_['entry_total']					 = 'Total';
-$_['entry_sort_order']				 = 'Sort order';
-$_['entry_geo_zone']				 = 'Geo zone';
-$_['entry_status']					 = 'Status';
+$_['entry_total']		             = 'Total mínimo';
+$_['entry_geo_zone']	             = 'Região geográfica';
+$_['entry_status']                   = 'Situação';
+$_['entry_sort_order']               = 'Posição';
 $_['entry_debug']					 = 'Debug logging';
 $_['entry_live_demo']				 = 'Live / Demo';
 $_['entry_auto_settle']				 = 'Settlement type';
@@ -71,7 +71,7 @@ $_['entry_status_rebate']			 = 'Rebated';
 $_['entry_notification_url']		 = 'Notification URL';
 
 // Help
-$_['help_total']					 = 'The checkout total the order must reach before this payment method becomes active';
+$_['help_total']		             = 'O valor mínimo que o pedido deve alcançar para que o Globalpay Redirect seja oferecido como opção de pagamento ao cliente.';
 $_['help_card_select']				 = 'Ask the user to choose their card type before they are redirected';
 $_['help_notification']				 = 'You need to supply this URL to Globalpay to get payment notifications';
 $_['help_debug']					 = 'Enabling debug will write sensitive data to a log file. You should always disable unless instructed otherwise';

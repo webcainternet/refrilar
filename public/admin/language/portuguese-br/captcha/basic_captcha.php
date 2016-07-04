@@ -1,13 +1,13 @@
 <?php
-$_['heading_title']    = 'Basic Captcha';
+$_['heading_title']    = 'Captcha básico';
 
 // Text
-$_['text_captcha']     = 'Captcha';
-$_['text_success']	   = 'Success: You have modified Basic Captcha!';
-$_['text_edit']        = 'Edit Basic Captcha';
+$_['text_captcha']     = 'Antispam';
+$_['text_success']	   = 'Captcha básico modificado com sucesso!';
+$_['text_edit']        = 'Editando Captcha básico';
 
 // Entry
-$_['entry_status']     = 'Status';
+$_['entry_status']     = 'Situação';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify Basic Captcha!';
+$_['error_permission'] = 'Atenção: Você não possui permissão para modificar a extensão de antispam Captcha básico!';

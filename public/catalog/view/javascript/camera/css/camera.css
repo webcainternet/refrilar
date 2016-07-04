@@ -133,7 +133,7 @@
 .camera_caption h2 {
   font-size: 96px;
   line-height: 90px;
-  color: #ef7a57;
+  color: #3C2A70;
   font-weight: 700;
   margin-bottom: 0;
 }
@@ -144,7 +144,7 @@
   padding-left: 4px;
   font-size: 26px;
   line-height: 40px;
-  color: #20282e;
+  color: #FAB434;
   display: block;
   margin-bottom: 26px;
 }
@@ -156,6 +156,7 @@
   font-size: 66px;
   line-height: 40px;
   font-weight: 700;
+  color: #333;
 }
 .camera_caption h5 + span em {
   font-size: 38px;
@@ -232,15 +233,15 @@
 }
 @media (max-width: 389px) {
   .camera_caption h2 {
-    text-shadow: 1px 1px 1px #20282e;
+    text-shadow: 1px 1px 1px #DDDDDD;
   }
   .camera_caption h5 {
-    color: #ef7a57;
-    text-shadow: 1px 1px 1px #20282e;
+    color: #3C2A70;
+    text-shadow: 1px 1px 1px #DDDDDD;
   }
   .camera_caption h5 + span {
-    color: #ef7a57;
-    text-shadow: 1px 1px 1px #20282e;
+    color: #3C2A70;
+    text-shadow: 1px 1px 1px #DDDDDD;
   }
 }
 
@@ -264,14 +265,14 @@
   left: 45px;
   z-index: 5;
   font-size: 28px;
-  color: #20282e;
+  color: #DDDDDD;
   -moz-transition: 0.5s all ease;
   -o-transition: 0.5s all ease;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
 }
 .camera_prev:hover, .camera_next:hover {
-  color: #ef7a57;
+  color: #3C2A70;
 }
 
 .camera_next {

@@ -48,7 +48,6 @@ $_['entry_quantity']     = 'Quantidade';
 $_['entry_reason']       = 'Motivo';
 $_['entry_opened']       = 'Embalagem aberta?';
 $_['entry_fault_detail'] = 'Detalhes';
-$_['entry_captcha']      = 'Código da imagem';
 
 // Error
 $_['text_error']         = 'A devolução que você solicitou não foi encontrada!';
@@ -60,5 +59,4 @@ $_['error_telephone']    = 'O telefone deve ter entre 10 e 32 caracteres!';
 $_['error_product']      = 'O produto deve ter entre 3 e 255 caracteres!';
 $_['error_model']        = 'O modelo deve ter entre 3 e 64 caracteres!';
 $_['error_reason']       = 'Você deve selecionar um motivo para a devolução!';
-$_['error_captcha']      = 'O código no campo não é o mesmo da imagem!';
 $_['error_agree']        = 'Atenção: Você deve aceitar o contrato de %s!';

@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:3306
--- Generation Time: Jun 21, 2016 at 04:46 PM
+-- Generation Time: Jul 04, 2016 at 02:53 PM
 -- Server version: 5.5.38
 -- PHP Version: 5.3.29
 
@@ -394,7 +394,7 @@ CREATE TABLE `oc_cart` (
   `option` text NOT NULL,
   `quantity` int(5) NOT NULL,
   `date_added` datetime NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `oc_cart`
@@ -936,7 +936,7 @@ CREATE TABLE `oc_currency` (
 --
 
 INSERT INTO `oc_currency` (`currency_id`, `title`, `code`, `symbol_left`, `symbol_right`, `decimal_place`, `value`, `status`, `date_modified`) VALUES
-(4, 'Real', 'BRL', 'R$ ', '', '2', 1.00000000, 1, '2016-06-21 16:44:41');
+(4, 'Real', 'BRL', 'R$ ', '', '2', 1.00000000, 1, '2016-07-04 14:01:09');
 
 -- --------------------------------------------------------
 
@@ -1556,7 +1556,7 @@ CREATE TABLE `oc_layout_module` (
   `code` varchar(64) NOT NULL,
   `position` varchar(14) NOT NULL,
   `sort_order` int(3) NOT NULL
-) ENGINE=MyISAM AUTO_INCREMENT=1191 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1194 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `oc_layout_module`
@@ -1575,7 +1575,6 @@ INSERT INTO `oc_layout_module` (`layout_module_id`, `layout_id`, `code`, `positi
 (1139, 8, 'tm_megamenu.103', 'navigation', 1),
 (1182, 1, 'tm_single_category_product.106', 'content_top', 2),
 (1178, 9, 'tm_megamenu.103', 'navigation', 1),
-(1124, 3, 'featured.28', 'column_left', 1),
 (1189, 1, 'tm_single_category_product.107', 'content_top', 3),
 (1144, 4, 'latest.69', 'column_left', 2),
 (1187, 1, 'html.104', 'top', 2),
@@ -1585,7 +1584,7 @@ INSERT INTO `oc_layout_module` (`layout_module_id`, `layout_id`, `code`, `positi
 (1111, 10, 'bestseller.43', 'column_left', 2),
 (1118, 14, 'tm_blog_articles.91', 'column_left', 1),
 (1117, 14, 'tm_blog_category.90', 'column_left', 0),
-(1123, 3, 'bestseller.43', 'column_left', 2),
+(1193, 3, 'tm_fbbox.42', 'footer_top', 2),
 (1137, 8, 'tm_google_map.54', 'content_top', 0),
 (1142, 4, 'account', 'column_left', 1),
 (1161, 5, 'featured.28', 'column_left', 2),
@@ -1599,9 +1598,8 @@ INSERT INTO `oc_layout_module` (`layout_module_id`, `layout_id`, `code`, `positi
 (1120, 14, 'tm_megamenu.103', 'navigation', 1),
 (1121, 14, 'html.108', 'footer_top', 1),
 (1122, 14, 'tm_fbbox.42', 'footer_top', 2),
-(1126, 3, 'tm_megamenu.103', 'navigation', 1),
-(1127, 3, 'html.108', 'footer_top', 1),
-(1128, 3, 'tm_fbbox.42', 'footer_top', 2),
+(1192, 3, 'html.108', 'footer_top', 1),
+(1191, 3, 'tm_megamenu.103', 'navigation', 1),
 (1131, 7, 'html.108', 'footer_top', 1),
 (1132, 7, 'tm_fbbox.42', 'footer_top', 2),
 (1135, 12, 'html.108', 'footer_top', 1),
@@ -1636,7 +1634,7 @@ CREATE TABLE `oc_layout_route` (
   `layout_id` int(11) NOT NULL,
   `store_id` int(11) NOT NULL,
   `route` varchar(255) NOT NULL
-) ENGINE=MyISAM AUTO_INCREMENT=321 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=322 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `oc_layout_route`
@@ -1645,7 +1643,7 @@ CREATE TABLE `oc_layout_route` (
 INSERT INTO `oc_layout_route` (`layout_route_id`, `layout_id`, `store_id`, `route`) VALUES
 (303, 6, 0, 'account/%'),
 (304, 10, 0, 'affiliate/%'),
-(309, 3, 0, 'product/category'),
+(321, 3, 0, 'product/category'),
 (320, 1, 0, 'common/home'),
 (317, 2, 0, 'product/product'),
 (315, 11, 0, 'information/information'),
@@ -1868,7 +1866,7 @@ INSERT INTO `oc_module` (`module_id`, `name`, `code`, `setting`) VALUES
 (28, 'Featured  Aside', 'featured', '{"name":"Featured  Aside","product":["43","40","30","41","33","46","32","28"],"limit":"1","width":"270","height":"270","status":"1"}'),
 (51, 'Featured Home', 'featured', '{"name":"Featured Home","product":["33","35","28","47"],"limit":"4","width":"270","height":"270","status":"1"}'),
 (46, 'Tm Slideshow', 'tm_slideshow', '{"name":"Tm Slideshow","banner_id":"15","width":"770","height":"610","status":"1"}'),
-(42, 'Facebook', 'tm_fbbox', '{"name":"Facebook","page_url":"https:\\/\\/www.facebook.com\\/TemplateMonster","app_id":"734741803247761","show_facepile":"true","bg":"false","show_posts":"true","width":"270","height":"214","language":"en_US","status":"1"}'),
+(42, 'Facebook', 'tm_fbbox', '{"name":"Facebook","page_url":"https:\\/\\/www.facebook.com\\/lojavirtual.digital","app_id":"734741803247761","show_facepile":"true","bg":"false","show_posts":"true","width":"270","height":"214","language":"en_US","status":"1"}'),
 (43, 'Bestsellers Aside', 'bestseller', '{"name":"Bestsellers Aside","limit":"1","width":"270","height":"270","status":"1"}'),
 (48, 'Specials Home', 'special', '{"name":"Specials Home","limit":"5","width":"270","height":"270","status":"1"}'),
 (54, 'Google Map', 'tm_google_map', '{"name":"Google Map","tm_google_map_key":"","status":"1","tm_google_map_zoom":"14","tm_google_map_type":"1","tm_google_map_sensor":"true","tm_google_map_width":"100%","tm_google_map_height":"440px","tm_google_map_styles":"                                                                                                                                                                                                                                                                                              [{&quot;featureType&quot;:&quot;landscape&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:65},{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:51},{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:30},{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:40},{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;administrative.province&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;},{&quot;lightness&quot;:-25},{&quot;saturation&quot;:-100}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#ffff00&quot;},{&quot;lightness&quot;:-25},{&quot;saturation&quot;:-97}]}]                                                                                                                                                                                                                                                                                                                                                                                      ","tm_google_map_disable_ui":"false","tm_google_map_scrollwheel":"false","tm_google_map_draggable":"true","tm_google_map_marker":"","tm_google_map_marker_active":"","tm_google_map_marker_width":"","tm_google_map_marker_height":""}'),
@@ -1881,7 +1879,7 @@ INSERT INTO `oc_module` (`module_id`, `name`, `code`, `setting`) VALUES
 (94, 'parallax-1', 'tm_parallax', '{"name":"parallax-1","description":{"1":{"description":"&lt;h4&gt;A great source for  &lt;\\/h4&gt;\\r\\n\\r\\n&lt;h2&gt;luxury&lt;\\/h2&gt;\\r\\n\\r\\n&lt;h2&gt;watches&lt;\\/h2&gt;\\r\\n\\r\\n&lt;p&gt;Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.&lt;\\/p&gt;\\r\\n\\r\\n&lt;a href=&quot;index.php?route=product\\/product&amp;amp;product_id=43&quot;&gt;Shop now!&lt;\\/a&gt;"},"2":{"description":"&lt;h4&gt;A great source for  &lt;\\/h4&gt;\\r\\n\\r\\n&lt;h2&gt;luxury&lt;\\/h2&gt;\\r\\n\\r\\n&lt;h2&gt;watches&lt;\\/h2&gt;\\r\\n\\r\\n&lt;p&gt;Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.&lt;\\/p&gt;\\r\\n\\r\\n&lt;a href=&quot;index.php?route=product\\/product&amp;amp;product_id=43&quot;&gt;Shop now!&lt;\\/a&gt;"},"3":{"description":"&lt;h4&gt;A great source for  &lt;\\/h4&gt;\\r\\n\\r\\n&lt;h2&gt;luxury&lt;\\/h2&gt;\\r\\n\\r\\n&lt;h2&gt;watches&lt;\\/h2&gt;\\r\\n\\r\\n&lt;p&gt;Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.&lt;\\/p&gt;\\r\\n\\r\\n&lt;a href=&quot;index.php?route=product\\/product&amp;amp;product_id=43&quot;&gt;Shop now!&lt;\\/a&gt;"}},"image":"catalog\\/parallax-1.jpg","width":"2050","height":"1433","css":"","status":"1","module_id":["42"]}'),
 (103, 'TM Megamenu', 'tm_megamenu', '{"name":"TM Megamenu","status":"1","menu_item":[{"type":"0","1":{"title":""},"2":{"title":""},"3":{"title":""},"link":"","submenu_show":"0","submenu_type":"1","columns":"1","columns-per-row":"1","image":"catalog\\/menu-bg.jpg","image_width":"770","image_height":"360","column":[{"width":"100%","content":"1","limit":"7","prod_limit":"0","module_id":"33","category_id":"20","category_show":"0"}]},{"type":"0","1":{"title":""},"2":{"title":""},"3":{"title":""},"link":"","submenu_show":"0","submenu_type":"0","columns":"5","columns-per-row":"5","image":"","image_width":"","image_height":"","column":[{"width":"20%","content":"3","limit":"10","prod_limit":"0","module_id":"33","category_id":"20","category_show":"0"},{"width":"20%","content":"3","limit":"10","prod_limit":"0","module_id":"33","category_id":"20","category_show":"0"},{"width":"20%","content":"3","limit":"10","prod_limit":"10","module_id":"33","category_id":"20","category_show":"0"},{"width":"20%","content":"3","limit":"10","prod_limit":"0","module_id":"33","category_id":"20","category_show":"0"},{"width":"20%","content":"3","limit":"10","prod_limit":"0","module_id":"33","category_id":"20","category_show":"0"}]},{"type":"0","1":{"title":""},"2":{"title":""},"3":{"title":""},"link":"","submenu_show":"0","submenu_type":"0","columns":"1","columns-per-row":"1","image":"","image_width":"","image_height":"","column":[{"width":"","content":"3","limit":"10","prod_limit":"0","module_id":"33","category_id":"20","category_show":"0"}]},{"type":"0","1":{"title":""},"2":{"title":""},"3":{"title":""},"link":"","submenu_show":"0","submenu_type":"0","columns":"1","columns-per-row":"1","image":"","image_width":"","image_height":"","column":[{"width":"100%","content":"3","limit":"10","prod_limit":"0","module_id":"33","category_id":"20","category_show":"0"}]},{"type":"0","1":{"title":""},"2":{"title":""},"3":{"title":""},"link":"","submenu_show":"0","submenu_type":"0","columns":"1","columns-per-row":"1","image":"","image_width":"","image_height":"","column":[{"width":"100%","content":"3","limit":"10","prod_limit":"0","module_id":"33","category_id":"20","category_show":"0"}]},{"type":"0","1":{"title":""},"2":{"title":""},"3":{"title":""},"link":"","submenu_show":"0","submenu_type":"0","columns":"0","columns-per-row":"0","image":"","image_width":"","image_height":""}]}'),
 (101, 'Blog Home Articles', 'tm_blog_articles', '{"status":"1","name":"Blog Home Articles","article_limit":"3","show_readmore":"1","show_date":"1","show_author":"1","show_comments":"1","show_image":"1","image_width":"1170","image_height":"780","description_limit":"300","category_id":"1"}'),
-(104, 'custom-block', 'html', '{"name":"custom-block","module_description":{"1":{"title":"custom-block","description":"&lt;div class=&quot;col-sm-4&quot;&gt;\\r\\n&lt;div class=&quot;row&quot;&gt;\\r\\n&lt;div class=&quot;col-sm-12&quot;&gt;\\r\\n&lt;a href=&quot;?route=product\\/product&amp;amp;product_id=32&quot;&gt;\\r\\n&lt;div class=&quot;block-cnt&quot; style=&quot;background-color: #ef7a57;&quot;&gt;\\r\\n&lt;h2&gt;Sale &lt;em&gt;get up to&lt;\\/em&gt; &lt;span&gt;50% off&lt;\\/span&gt;&lt;\\/h2&gt;\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n&lt;\\/a&gt;\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n&lt;div class=&quot;row&quot;&gt;\\r\\n&lt;div class=&quot;col-sm-12&quot;&gt;\\r\\n&lt;a href=&quot;?route=product\\/product&amp;amp;product_id=36&quot;&gt;\\r\\n&lt;div class=&quot;block-cnt&quot; style=&quot;background-image: url(''image\\/catalog\\/banner-0.jpg'');&quot;&gt;\\r\\n&lt;h2&gt;New &lt;span&gt;Arrivals&lt;\\/span&gt;&lt;\\/h2&gt;\\r\\n\\r\\n&lt;span&gt;Shop now!&lt;\\/span&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n&lt;\\/a&gt;\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;"},"4":{"title":"custom-block","description":"&lt;div class=&quot;col-sm-4&quot;&gt;\\r\\n&lt;div class=&quot;row&quot;&gt;\\r\\n&lt;div class=&quot;col-sm-12&quot;&gt;\\r\\n&lt;a href=&quot;?route=product\\/product&amp;amp;product_id=32&quot;&gt;\\r\\n&lt;div class=&quot;block-cnt&quot; style=&quot;background-color: #ef7a57;&quot;&gt;\\r\\n&lt;h2&gt;Sale &lt;em&gt;get up to&lt;\\/em&gt; &lt;span&gt;50% off&lt;\\/span&gt;&lt;\\/h2&gt;\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n&lt;\\/a&gt;\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n&lt;div class=&quot;row&quot;&gt;\\r\\n&lt;div class=&quot;col-sm-12&quot;&gt;\\r\\n&lt;a href=&quot;?route=product\\/product&amp;amp;product_id=36&quot;&gt;\\r\\n&lt;div class=&quot;block-cnt&quot; style=&quot;background-image: url(''image\\/catalog\\/banner-0.jpg'');&quot;&gt;\\r\\n&lt;h2&gt;New &lt;span&gt;Arrivals&lt;\\/span&gt;&lt;\\/h2&gt;\\r\\n\\r\\n&lt;span&gt;Shop now!&lt;\\/span&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n&lt;\\/a&gt;\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;"},"2":{"title":"custom-block","description":"&lt;div class=&quot;col-sm-4&quot;&gt;\\r\\n&lt;div class=&quot;row&quot;&gt;\\r\\n&lt;div class=&quot;col-sm-12&quot;&gt;\\r\\n&lt;a href=&quot;?route=product\\/product&amp;amp;product_id=32&quot;&gt;\\r\\n&lt;div class=&quot;block-cnt&quot; style=&quot;background-color: #ef7a57;&quot;&gt;\\r\\n&lt;h2&gt;Sale &lt;em&gt;get up to&lt;\\/em&gt; &lt;span&gt;50% off&lt;\\/span&gt;&lt;\\/h2&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n&lt;\\/a&gt;\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;div class=&quot;row&quot;&gt;\\r\\n&lt;div class=&quot;col-sm-12&quot;&gt;\\r\\n&lt;a href=&quot;?route=product\\/product&amp;amp;product_id=36&quot;&gt;\\r\\n&lt;div class=&quot;block-cnt&quot; style=&quot;background-image: url(''image\\/catalog\\/banner-0.jpg'');&quot;&gt;\\r\\n&lt;h2&gt;New &lt;span&gt;Arrivals&lt;\\/span&gt;&lt;\\/h2&gt;\\r\\n&lt;span&gt;Shop now!&lt;\\/span&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n&lt;\\/a&gt;\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;"},"3":{"title":"custom-block","description":"&lt;div class=&quot;col-sm-4&quot;&gt;\\r\\n&lt;div class=&quot;row&quot;&gt;\\r\\n&lt;div class=&quot;col-sm-12&quot;&gt;\\r\\n&lt;a href=&quot;?route=product\\/product&amp;amp;product_id=32&quot;&gt;\\r\\n&lt;div class=&quot;block-cnt&quot; style=&quot;background-color: #ef7a57;&quot;&gt;\\r\\n&lt;h2&gt;Sale &lt;em&gt;get up to&lt;\\/em&gt; &lt;span&gt;50% off&lt;\\/span&gt;&lt;\\/h2&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n&lt;\\/a&gt;\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;div class=&quot;row&quot;&gt;\\r\\n&lt;div class=&quot;col-sm-12&quot;&gt;\\r\\n&lt;a href=&quot;?route=product\\/product&amp;amp;product_id=36&quot;&gt;\\r\\n&lt;div class=&quot;block-cnt&quot; style=&quot;background-image: url(''image\\/catalog\\/banner-0.jpg'');&quot;&gt;\\r\\n&lt;h2&gt;New &lt;span&gt;Arrivals&lt;\\/span&gt;&lt;\\/h2&gt;\\r\\n&lt;span&gt;Shop now!&lt;\\/span&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n&lt;\\/a&gt;\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;"}},"status":"1"}'),
+(104, 'custom-block', 'html', '{"name":"custom-block","module_description":{"1":{"title":"custom-block","description":"&lt;div class=&quot;col-sm-4&quot;&gt;\\r\\n&lt;div class=&quot;row&quot;&gt;\\r\\n&lt;div class=&quot;col-sm-12&quot;&gt;\\r\\n&lt;a href=&quot;?route=product\\/product&amp;amp;product_id=32&quot;&gt;\\r\\n&lt;div class=&quot;block-cnt&quot; style=&quot;background-color: #3C2A70;&quot;&gt;\\r\\n&lt;h2&gt;Sale &lt;em&gt;get up to&lt;\\/em&gt; &lt;span&gt;50% off&lt;\\/span&gt;&lt;\\/h2&gt;\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n&lt;\\/a&gt;\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n&lt;div class=&quot;row&quot;&gt;\\r\\n&lt;div class=&quot;col-sm-12&quot;&gt;\\r\\n&lt;a href=&quot;?route=product\\/product&amp;amp;product_id=36&quot;&gt;\\r\\n&lt;div class=&quot;block-cnt&quot; style=&quot;background-image: url(''image\\/catalog\\/banner-0.jpg'');&quot;&gt;\\r\\n&lt;h2&gt;New &lt;span&gt;Arrivals&lt;\\/span&gt;&lt;\\/h2&gt;\\r\\n\\r\\n&lt;span&gt;Shop now!&lt;\\/span&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n&lt;\\/a&gt;\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;"},"4":{"title":"custom-block","description":"&lt;div class=&quot;col-sm-4&quot;&gt;\\r\\n&lt;div class=&quot;row&quot;&gt;\\r\\n&lt;div class=&quot;col-sm-12&quot;&gt;\\r\\n&lt;a href=&quot;?route=product\\/product&amp;amp;product_id=32&quot;&gt;\\r\\n&lt;div class=&quot;block-cnt&quot; style=&quot;background-color: #3C2A70;&quot;&gt;\\r\\n&lt;h2&gt;Sale &lt;em&gt;get up to&lt;\\/em&gt; &lt;span&gt;50% off&lt;\\/span&gt;&lt;\\/h2&gt;\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n&lt;\\/a&gt;\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n&lt;div class=&quot;row&quot;&gt;\\r\\n&lt;div class=&quot;col-sm-12&quot;&gt;\\r\\n&lt;a href=&quot;?route=product\\/product&amp;amp;product_id=36&quot;&gt;\\r\\n&lt;div class=&quot;block-cnt&quot; style=&quot;background-image: url(''image\\/catalog\\/banner-0.jpg'');&quot;&gt;\\r\\n&lt;h2&gt;New &lt;span&gt;Arrivals&lt;\\/span&gt;&lt;\\/h2&gt;\\r\\n\\r\\n&lt;span&gt;Shop now!&lt;\\/span&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n&lt;\\/a&gt;\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;"},"2":{"title":"custom-block","description":"&lt;div class=&quot;col-sm-4&quot;&gt;\\r\\n&lt;div class=&quot;row&quot;&gt;\\r\\n&lt;div class=&quot;col-sm-12&quot;&gt;\\r\\n&lt;a href=&quot;?route=product\\/product&amp;amp;product_id=32&quot;&gt;\\r\\n&lt;div class=&quot;block-cnt&quot; style=&quot;background-color: #3C2A70;&quot;&gt;\\r\\n&lt;h2&gt;Sale &lt;em&gt;get up to&lt;\\/em&gt; &lt;span&gt;50% off&lt;\\/span&gt;&lt;\\/h2&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n&lt;\\/a&gt;\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;div class=&quot;row&quot;&gt;\\r\\n&lt;div class=&quot;col-sm-12&quot;&gt;\\r\\n&lt;a href=&quot;?route=product\\/product&amp;amp;product_id=36&quot;&gt;\\r\\n&lt;div class=&quot;block-cnt&quot; style=&quot;background-image: url(''image\\/catalog\\/banner-0.jpg'');&quot;&gt;\\r\\n&lt;h2&gt;New &lt;span&gt;Arrivals&lt;\\/span&gt;&lt;\\/h2&gt;\\r\\n&lt;span&gt;Shop now!&lt;\\/span&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n&lt;\\/a&gt;\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;"},"3":{"title":"custom-block","description":"&lt;div class=&quot;col-sm-4&quot;&gt;\\r\\n&lt;div class=&quot;row&quot;&gt;\\r\\n&lt;div class=&quot;col-sm-12&quot;&gt;\\r\\n&lt;a href=&quot;?route=product\\/product&amp;amp;product_id=32&quot;&gt;\\r\\n&lt;div class=&quot;block-cnt&quot; style=&quot;background-color: #3C2A70;&quot;&gt;\\r\\n&lt;h2&gt;Sale &lt;em&gt;get up to&lt;\\/em&gt; &lt;span&gt;50% off&lt;\\/span&gt;&lt;\\/h2&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n&lt;\\/a&gt;\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;div class=&quot;row&quot;&gt;\\r\\n&lt;div class=&quot;col-sm-12&quot;&gt;\\r\\n&lt;a href=&quot;?route=product\\/product&amp;amp;product_id=36&quot;&gt;\\r\\n&lt;div class=&quot;block-cnt&quot; style=&quot;background-image: url(''image\\/catalog\\/banner-0.jpg'');&quot;&gt;\\r\\n&lt;h2&gt;New &lt;span&gt;Arrivals&lt;\\/span&gt;&lt;\\/h2&gt;\\r\\n&lt;span&gt;Shop now!&lt;\\/span&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n&lt;\\/a&gt;\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;\\r\\n\\r\\n\\r\\n\\r\\n&lt;\\/div&gt;"}},"status":"1"}'),
 (105, 'newsletter-popup', 'tm_newsletter_popup', '{"name":"newsletter-popup","newsletter_popup_bg":"","newsletter_popup_bg_width":"","newsletter_popup_bg_height":"","newsletter_popup_cookie":"1","tm_newsletter_popup_description":{"1":{"title":"newsletter","description":"Subscribe to the Tools Store mailing list to receive updates on  new arrivals, special offers and other discount information."},"2":{"title":"newsletter","description":"Subscribe to the Tools Store mailing list to receive updates on  new arrivals, special offers and other discount information."},"3":{"title":"newsletter","description":"Subscribe to the Tools Store mailing list to receive updates on  new arrivals, special offers and other discount information."}},"status":"1"}'),
 (106, 'single-category1', 'tm_single_category_product', '{"name":"single-category1","path":"POWER TOOLS ","category":"18","tabs":"1","type":"3","special":"1","bestseller":"0","latest":"1","featured":"1","product":["43","36","28","47","32"],"limit":"5","width":"270","height":"235","status":"1"}'),
 (107, 'single-category2', 'tm_single_category_product', '{"name":"single-category2","path":"HAND TOOLS","category":"20","tabs":"1","type":"3","special":"1","bestseller":"0","latest":"1","featured":"1","product":["43","36","28","47","32"],"limit":"5","width":"270","height":"235","status":"1"}'),
@@ -2350,7 +2348,7 @@ INSERT INTO `oc_product` (`product_id`, `model`, `sku`, `upc`, `ean`, `jan`, `is
 (44, 'Product 17', '', '', '', '', '', '', '', 1000, 5, 'catalog/product-40.png', 15, 1, 1000.0000, 0, 9, '2009-02-03', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 2, 1, 1, 0, 1, 0, '2009-02-03 21:08:00', '2015-09-29 17:08:28'),
 (45, 'Product 18', '', '', '', '', '', '', '', 998, 5, 'catalog/product-43.png', 16, 1, 200.0000, 0, 0, '2009-02-03', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 2, 1, 1, 0, 1, 0, '2009-02-03 21:08:17', '2015-09-29 17:11:21'),
 (46, 'Product 19', '', '', '', '', '', '', '', 1000, 5, 'catalog/product-46.png', 16, 1, 1000.0000, 0, 9, '2009-02-03', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 2, 1, 1, 0, 1, 0, '2009-02-03 21:08:29', '2015-09-29 17:15:23'),
-(47, 'Product 12', '', '', '', '', '', '', '', 1000, 5, 'catalog/product-49.png', 15, 1, 100.0000, 400, 9, '2009-02-03', 1.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 0, 1, 0, '2009-02-03 21:08:40', '2015-10-06 13:04:04'),
+(47, 'Product 12', '', '', '', '', '', '', '', 1000, 5, 'catalog/product-49.png', 15, 1, 100.0000, 400, 9, '2009-02-03', 1.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 0, 1, 5, '2009-02-03 21:08:40', '2015-10-06 13:04:04'),
 (48, 'product 20', 'test 1', '', '', '', '', '', 'test 2', 995, 5, 'catalog/product-52.png', 16, 1, 100.0000, 0, 9, '2009-02-08', 1.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 2, 1, 1, 0, 1, 0, '2009-02-08 17:21:51', '2015-09-29 17:13:34'),
 (49, 'SAM1', '', '', '', '', '', '', '', 80000, 8, 'catalog/product-55.png', 17, 1, 199.9900, 0, 9, '2011-04-25', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 1, 1, 0, '2011-04-26 08:57:34', '2015-09-29 17:10:04'),
 (50, 'product 10', '', '', '', '', '', '', '', 100, 6, 'catalog/product-58.png', 18, 1, 100.0000, 0, 0, '2015-10-06', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 1, 1, 0, '2015-10-06 12:57:09', '2015-10-06 13:03:43');
@@ -9665,7 +9663,7 @@ MODIFY `banner_image_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=210;
 -- AUTO_INCREMENT for table `oc_cart`
 --
 ALTER TABLE `oc_cart`
-MODIFY `cart_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=34;
+MODIFY `cart_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=35;
 --
 -- AUTO_INCREMENT for table `oc_category`
 --
@@ -9795,12 +9793,12 @@ MODIFY `layout_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=15;
 -- AUTO_INCREMENT for table `oc_layout_module`
 --
 ALTER TABLE `oc_layout_module`
-MODIFY `layout_module_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=1191;
+MODIFY `layout_module_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=1194;
 --
 -- AUTO_INCREMENT for table `oc_layout_route`
 --
 ALTER TABLE `oc_layout_route`
-MODIFY `layout_route_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=321;
+MODIFY `layout_route_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=322;
 --
 -- AUTO_INCREMENT for table `oc_length_class`
 --

@@ -27,4 +27,3 @@ $_['error_process_order']		= 'There was an error processing your order. Please c
 $_['error_login']				= 'Login failed';
 $_['error_login_email']			= 'Login failed: %s account email address did not match Amazon account email address';
 $_['error_minimum']             = 'Minimum order amount for Login and Pay with Amazon is %s!';
-

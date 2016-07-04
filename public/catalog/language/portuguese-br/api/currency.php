@@ -1,7 +1,7 @@
 <?php
 // Text
-$_['text_success']     = 'Success: Your currency has been changed!';
+$_['text_success']     = 'A moeda foi modificada com sucesso!';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to access the API!';
-$_['error_currency']   = 'Warning: Currency code is invalid!';
+$_['error_permission'] = 'Atenção: Você não tem permissão de acesso a API!';
+$_['error_currency']   = 'Atenção: O código da moeda não é válido!';

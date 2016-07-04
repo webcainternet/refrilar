@@ -1,15 +1,15 @@
 <?php
 // Heading
-$_['heading_title']    = 'Captcha';
+$_['heading_title']    = 'Antispam';
 
 // Text
-$_['text_success']     = 'Success: You have modified captchas!';
-$_['text_list']        = 'Captcha List';
+$_['text_success']     = 'Antispam modificado com sucesso!';
+$_['text_list']        = 'Listando Antispam';
 
 // Column
-$_['column_name']      = 'Captcha Name';
-$_['column_status']    = 'Status';
-$_['column_action']    = 'Action';
+$_['column_name']      = 'Antispam';
+$_['column_status']    = 'Situação';
+$_['column_action']    = 'Ação';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify captchas!';
+$_['error_permission'] = 'Atenção: Você não tem permissão para modificar os antispam!';

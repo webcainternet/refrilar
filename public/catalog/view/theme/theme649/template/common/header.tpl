@@ -29,7 +29,7 @@
 		<link href="catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
 		<link href="catalog/view/javascript/jquery/owl-carousel/owl.carousel.css" rel="stylesheet">
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-		
+
 		<link href='//fonts.googleapis.com/css?family=Ubuntu:400,300,500,700&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
 		<link href="catalog/view/theme/<?php echo $theme_path; ?>/stylesheet/magnificent.css" rel="stylesheet">
@@ -83,13 +83,13 @@
 						<div class="fleft">
 							<div id="logo" class="logo">
 								<?php if ($logo) { ?>
-								<a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive"/></a>
+								<a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" style="height: 70px; margin-top: 0px;" /></a>
 								<?php } else { ?>
 								<h1>
 									<a href="<?php echo $home; ?>"><?php echo $name; ?></a>
 								</h1>
 								<?php } ?>
-							</div>	
+							</div>
 						</div>
 						<div class="fright">
 							<address class="material-icons-local_phone">
@@ -138,7 +138,7 @@
 		                                    <span><?php echo $text_login; ?></span>
 		                                </a>
 		                            <?php } ?>
-		                        </li>	
+		                        </li>
 		                        <li>
 		                            <a href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>">
 		                            <!--<i class="material-design-double126"></i>-->
@@ -191,23 +191,23 @@
 							<?php }?>
 							</div>
 							<div class="fright">
-							<?php echo $search; ?>
-							<div>
-	                            <a class="wish_button" href="<?php echo $wishlist; ?>">
-	                                <i class="material-icons-favorite_border"></i>
-	                                <span id="wishlist-total"><?php echo $text_wishlist; ?></span>
-	                            </a>
-	                            <?php echo $cart; ?>    
-	                        </div>
-	                        </div>
+								<?php echo $search; ?>
+									<div>
+										<div style="float: left; margin: 30px 25px;"><a class="wish_button" href="<?php echo $wishlist; ?>">
+												<i class="material-icons-favorite_border"></i>
+												<span id="wishlist-total"></span>
+												</a>
+										</div>
+										<div style="float: left; margin: 30px 0px;">
+		                	<?php echo $cart; ?>
+										</div>
+	                </div>
+              </div>
 						</div>
 					</div>
-					
+
 					<?php if ($header_top) { ?>
 					<div class="header_modules"><?php echo $header_top; ?></div>
 					<?php } ?>
-					
+
 				</header>
-
-
-
