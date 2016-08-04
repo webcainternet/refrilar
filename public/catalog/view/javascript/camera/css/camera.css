@@ -133,7 +133,7 @@
 .camera_caption h2 {
   font-size: 96px;
   line-height: 90px;
-  color: #3C2A70;
+  color: #12497e;
   font-weight: 700;
   margin-bottom: 0;
 }
@@ -236,11 +236,11 @@
     text-shadow: 1px 1px 1px #DDDDDD;
   }
   .camera_caption h5 {
-    color: #3C2A70;
+    color: #12497e;
     text-shadow: 1px 1px 1px #DDDDDD;
   }
   .camera_caption h5 + span {
-    color: #3C2A70;
+    color: #12497e;
     text-shadow: 1px 1px 1px #DDDDDD;
   }
 }
@@ -272,7 +272,7 @@
   transition: 0.5s all ease;
 }
 .camera_prev:hover, .camera_next:hover {
-  color: #3C2A70;
+  color: #12497e;
 }
 
 .camera_next {

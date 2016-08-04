@@ -132,7 +132,7 @@ class ControllerModuleTmSingleCategoryProduct extends Controller
 		$data['featured_products'] = array();
 		if (($setting['featured'] == "1" && $setting['tabs'] == "1") || ($setting['type'] == "3" && $setting['tabs'] == "0")) {
 			if (!$setting['limit']) {
-				$setting['limit'] = 4;
+				$setting['limit'] = 0;
 			}
 			$products = array_slice($setting['product'], 0, (int)$setting['limit']);
 			$data['featured_products'] = $this->createProducts($products, $setting);

@@ -1,9 +1,9 @@
 <?php
 // Heading
 $_['heading_title'] = 'Tm Module Tabs';
-$_['heading_latest'] = 'New';
-$_['heading_specials'] = 'Specials';
-$_['heading_featured'] = 'Featured';
+$_['heading_latest'] = 'Novo';
+$_['heading_specials'] = 'Promoção';
+$_['heading_featured'] = 'Destaque';
 $_['heading_bestsellers'] = 'Bestsellers';
 
 // Text
