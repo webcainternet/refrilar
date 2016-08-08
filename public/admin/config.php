@@ -1,31 +1,32 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://refrilar.lojavirtual.local/admin/');
-define('HTTP_CATALOG', 'http://refrilar.lojavirtual.local/');
+define('HTTP_SERVER', 'http://refrilar.homolog.lojavirtual.digital/admin/');
+define('HTTP_CATALOG', 'http://refrilar.homolog.lojavirtual.digital/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://refrilar.lojavirtual.local/admin/');
-define('HTTPS_CATALOG', 'http://refrilar.lojavirtual.local/');
+define('HTTPS_SERVER', 'http://refrilar.homolog.lojavirtual.digital/admin/');
+define('HTTPS_CATALOG', 'http://refrilar.homolog.lojavirtual.digital/');
 
 // DIR
-define('DIR_APPLICATION', '/Users/fernandomendes/github/refrilar/public/admin/');
-define('DIR_SYSTEM', '/Users/fernandomendes/github/refrilar/public/system/');
-define('DIR_LANGUAGE', '/Users/fernandomendes/github/refrilar/public/admin/language/');
-define('DIR_TEMPLATE', '/Users/fernandomendes/github/refrilar/public/admin/view/template/');
-define('DIR_CONFIG', '/Users/fernandomendes/github/refrilar/public/system/config/');
-define('DIR_IMAGE', '/Users/fernandomendes/github/refrilar/public/image/');
-define('DIR_CACHE', '/Users/fernandomendes/github/refrilar/public/system/storage/cache/');
-define('DIR_DOWNLOAD', '/Users/fernandomendes/github/refrilar/public/system/storage/download/');
-define('DIR_LOGS', '/Users/fernandomendes/github/refrilar/public/system/storage/logs/');
-define('DIR_MODIFICATION', '/Users/fernandomendes/github/refrilar/public/system/storage/modification/');
-define('DIR_UPLOAD', '/Users/fernandomendes/github/refrilar/public/system/storage/upload/');
-define('DIR_CATALOG', '/Users/fernandomendes/github/refrilar/public/catalog/');
+define('DIR_APPLICATION', '/srv/httpd/refrilar.homolog.lojavirtual.digital/refrilar/public/admin/');
+define('DIR_SYSTEM', '/srv/httpd/refrilar.homolog.lojavirtual.digital/refrilar/public/system/');
+define('DIR_LANGUAGE', '/srv/httpd/refrilar.homolog.lojavirtual.digital/refrilar/public/admin/language/');
+define('DIR_TEMPLATE', '/srv/httpd/refrilar.homolog.lojavirtual.digital/refrilar/public/admin/view/template/');
+define('DIR_CONFIG', '/srv/httpd/refrilar.homolog.lojavirtual.digital/refrilar/public/system/config/');
+define('DIR_IMAGE', '/srv/httpd/refrilar.homolog.lojavirtual.digital/refrilar/public/image/');
+define('DIR_CACHE', '/srv/httpd/refrilar.homolog.lojavirtual.digital/refrilar/public/system/storage/cache/');
+define('DIR_DOWNLOAD', '/srv/httpd/refrilar.homolog.lojavirtual.digital/refrilar/public/system/storage/download/');
+define('DIR_LOGS', '/srv/httpd/refrilar.homolog.lojavirtual.digital/refrilar/public/system/storage/logs/');
+define('DIR_MODIFICATION', '/srv/httpd/refrilar.homolog.lojavirtual.digital/refrilar/public/system/storage/modification/');
+define('DIR_UPLOAD', '/srv/httpd/refrilar.homolog.lojavirtual.digital/refrilar/public/system/storage/upload/');
+define('DIR_CATALOG', '/srv/httpd/refrilar.homolog.lojavirtual.digital/refrilar/public/catalog/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'root');
+define('DB_USERNAME', 'refrilar');
+define('DB_PASSWORD', 'u3yrfgG2df6');
 define('DB_DATABASE', 'refrilar');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
+
