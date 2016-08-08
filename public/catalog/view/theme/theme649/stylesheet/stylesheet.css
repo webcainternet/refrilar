@@ -4130,6 +4130,7 @@ aside #blog-search a:hover {
 }
 .single-category .product-thumb {
   margin-top: -30px;
+  min-height: 395px;
 }
 .single-category .name__aside {
   display: none;
