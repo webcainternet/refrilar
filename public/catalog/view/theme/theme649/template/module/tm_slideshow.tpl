@@ -4,7 +4,7 @@
 			navigation: true,
 			playPause: false,
 			thumbnails: false,
-			navigationHover: true,
+			navigationHover: false,
 			barPosition: 'top',
 			loader: false,
 			time: 3000,
@@ -16,8 +16,8 @@
 			barPosition: 'bottom',
 			easing: 'easeInOutExpo',
 			fx: 'simpleFade',
-			height: '45.46%',
-			minHeight: '300px',
+			height: '79.22077922077922%',
+			minHeight: '290px',
 			hover: true,
 			pagination: false,
 			loaderColor			: '#1f1f1f',
@@ -28,7 +28,7 @@
 			});
 	});
 </script>
-<div class="fluid_container" >
+<div class="col-sm-8">
 	<div class="camera_container">
 	<div id="camera_wrap_<?php echo $module; ?>">
 	<?php foreach ($banners as $banner) { ?>
