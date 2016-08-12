@@ -1,7 +1,7 @@
 <?php echo $header; ?>
 <?php if ($top) { ?>
     <section class="top">
-        <div class="container">
+        <div class="">
             <div class="row">
                 <?php echo $top; ?>
             </div>

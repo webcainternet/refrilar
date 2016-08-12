@@ -28,7 +28,7 @@
 			});
 	});
 </script>
-<div class="col-sm-8">
+<div class="col-sm-12">
 	<div class="camera_container">
 	<div id="camera_wrap_<?php echo $module; ?>">
 	<?php foreach ($banners as $banner) { ?>

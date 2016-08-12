@@ -183,6 +183,7 @@
 
 					<div id="stuck" class="stuck-menu">
 						<div class="container">
+							<?php /*
 							<div class="fleft">
 							<?php if ($navigation){?>
 							<div class="navigation">
@@ -190,6 +191,101 @@
 							</div>
 							<?php }?>
 							</div>
+							*/ ?>
+
+							<style>
+							.icon-arcondicionado {
+								background-image: url('image/aireacondicionado.png');
+								padding-left: 30px;
+								background-size: 25px;
+								background-repeat: no-repeat;
+							}
+							.icon-tanquinhos {
+								background-image: url('image/tanquinhos.png');
+								padding-left: 30px;
+								background-size: 25px;
+								background-repeat: no-repeat;
+							}
+							.icon-lavadoras {
+								background-image: url('image/lavadoras.png');
+								padding-left: 30px;
+								background-size: 25px;
+								background-repeat: no-repeat;
+							}
+							.icon-ferramentas {
+								background-image: url('image/ferramentas.png');
+								padding-left: 30px;
+								background-size: 25px;
+								background-repeat: no-repeat;
+							}
+							.icon-refrigeradores {
+								background-image: url('image/refrigeradores.png');
+								padding-left: 30px;
+								background-size: 25px;
+								background-repeat: no-repeat;
+							}
+							.icon-microondas {
+								background-image: url('image/microondas.png');
+								padding-left: 30px;
+								background-size: 25px;
+								background-repeat: no-repeat;
+							}
+							</style>
+
+							<div class="fleft">
+								<div class="navigation">
+									<div class="megamenu">
+										<!--    <h3>--><!--</h3>-->
+
+										<ul class="sf-menu sf-js-enabled sf-arrows">
+											<li class="icon-arcondicionado">
+												<a href="http://refrilar.lojavirtual.local/ar-condicionado">AR CONDICIONADO</a>
+											</li>
+											<li class="icon-tanquinhos">
+												<a href="http://refrilar.lojavirtual.local/TANQUINHOS">TANQUINHOS</a>
+											</li>
+											<li class="icon-lavadoras">
+												<a href="http://refrilar.lojavirtual.local/LAVADORAS">LAVADORAS</a>
+											</li>
+											<li class="icon-ferramentas">
+												<a href="http://refrilar.lojavirtual.local/FERRAMENTAS">FERRAMENTAS</a>
+											</li>
+											<li class="icon-refrigeradores">
+												<a href="http://refrilar.lojavirtual.local/REFRIGERADORES">REFRIGERADORES</a>
+											</li>
+											<li class="icon-microondas">
+												<a href="http://refrilar.lojavirtual.local/MICROONDAS">MICROONDAS</a>
+
+											</li>
+										</ul>
+									</div>
+
+										<?php /*
+									<script>
+									;
+									(function ($) {
+										$(window).load(function () {
+											var o = $('.sf-menu');
+											o.superfish();
+											o.find('li a').each(function () {
+												if ($(location).attr('href').indexOf($(this).attr('href')) >= 0){
+													$(this).addClass('active');
+													return;
+												}
+											})
+											if (o.parents('aside').length){
+												var width = $('.container').outerWidth() - $('aside').outerWidth();
+												o.find('.sf-mega').each(function () {
+													$(this).width(width);
+												})
+											}
+										});
+									})(jQuery);
+
+									</script>
+								</div>
+							</div>
+
 							<div class="fright">
 								<?php echo $search; ?>
 									<div>
@@ -203,8 +299,11 @@
 										</div>
 	                </div>
               </div>
+							*/ ?>
 						</div>
 					</div>
+
+
 
 					<?php if ($header_top) { ?>
 					<div class="header_modules"><?php echo $header_top; ?></div>

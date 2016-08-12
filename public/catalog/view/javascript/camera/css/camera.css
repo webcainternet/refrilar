@@ -3,7 +3,7 @@
 =========================================================*/
 .camera_container {
   position: relative;
-  padding-bottom: 79.22078%;
+  padding-bottom: 667px;
 }
 
 @media (max-width: 366.06557px) {
@@ -21,10 +21,12 @@
   height: 100%;
   background: #fff;
   z-index: 0;
+  max-height: 650px;
 }
 
 .camera_wrap img {
   max-width: none !important;
+  max-height: none !important;
 }
 
 .camera_fakehover {
@@ -129,6 +131,7 @@
   bottom: 50px;
   left: 0;
   padding: 50px 54px;
+  padding-left: 20%;
 }
 .camera_caption h2 {
   font-size: 96px;

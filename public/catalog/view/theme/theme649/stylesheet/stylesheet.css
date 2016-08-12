@@ -1178,7 +1178,7 @@ header .cart_button i {
 }
 
 .top {
-  padding-top: 0px;
+  padding-top: 50px;
 }
 
 #content {
@@ -5818,7 +5818,7 @@ footer h5 + ul {
   margin-top: 16px;
 }
 footer h5 + ul li {
-  color: #12497e;
+  color: #FFF;
 }
 footer h5 + ul a {
   color: #FFF;
