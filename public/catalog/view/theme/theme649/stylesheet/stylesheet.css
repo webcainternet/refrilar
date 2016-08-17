@@ -5843,6 +5843,7 @@ footer .logo-block + address {
   margin-top: 30px;
 }
 footer address {
+  color: #FFF;
   margin-bottom: 0;
 }
 footer address + address {

@@ -135,7 +135,7 @@
 
 
 
-      <div class="copyright bot-line" style="margin-left: 15px; margin-right: 15px; margin: auto; width: 1170px; color: #333">
+      <div class="copyright bot-line" style="margin-left: 15px; margin-right: 15px; margin: auto; width: 1170px; color: #FFF">
           <div style="width: 60%; padding-top: 30px; float: left; padding-bottom: 27px;">
               <?php echo $powered; ?><!-- [[%FOOTER_LINK]] -->
           </div>
