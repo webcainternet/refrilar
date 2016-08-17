@@ -93,7 +93,7 @@
 						</div>
 						<div class="fright">
 							<address class="material-icons-local_phone">
-			                    <a href='callto:<?php echo $telephone; ?>'><?php echo $telephone; ?></a>
+			                    <a href='callto:<?php echo $telephone; ?>'>Atendimento: <?php echo $telephone; ?></a>
 			                </address>
 			                <?php echo $currency; ?>
 							<?php echo $language; ?>
