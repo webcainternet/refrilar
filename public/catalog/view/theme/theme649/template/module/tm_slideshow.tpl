@@ -16,8 +16,10 @@
 			barPosition: 'bottom',
 			easing: 'easeInOutExpo',
 			fx: 'simpleFade',
-			height: '79.22077922077922%',
+			height: '512px',
 			minHeight: '290px',
+			maxHeight: '512px',
+			width: '1170px',
 			hover: true,
 			pagination: false,
 			loaderColor			: '#1f1f1f',
@@ -29,7 +31,7 @@
 	});
 </script>
 <div class="col-sm-12">
-	<div class="camera_container">
+	<div class="camera_container" style="padding-bottom: 512px; margin: auto; width: 1170px;">
 	<div id="camera_wrap_<?php echo $module; ?>">
 	<?php foreach ($banners as $banner) { ?>
 		<div title="<?php echo $banner['title']; ?>" data-thumb="<?php echo $banner['image']; ?>" <?php if ($banner['link']) { ?> data-link="<?php echo $banner['link']; ?>"<?php } ?> data-src="<?php echo $banner['image']; ?>">

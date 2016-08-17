@@ -196,38 +196,44 @@
 							<style>
 							.icon-arcondicionado {
 								background-image: url('image/aireacondicionado.png');
-								padding-left: 30px;
-								background-size: 25px;
+								padding-left: 35px;
+								background-size: 30px;
 								background-repeat: no-repeat;
+								background-position: -1px;
 							}
 							.icon-tanquinhos {
 								background-image: url('image/tanquinhos.png');
-								padding-left: 30px;
-								background-size: 25px;
+								padding-left: 32px;
+								background-size: 35px;
+								background-position: -1px;
 								background-repeat: no-repeat;
 							}
 							.icon-lavadoras {
 								background-image: url('image/lavadoras.png');
-								padding-left: 30px;
-								background-size: 25px;
+								padding-left: 32px;
+								background-size: 35px;
+								background-position: -1px;
 								background-repeat: no-repeat;
 							}
 							.icon-ferramentas {
 								background-image: url('image/ferramentas.png');
-								padding-left: 30px;
-								background-size: 25px;
+								padding-left: 32px;
+								background-size: 35px;
+								background-position: -1px;
 								background-repeat: no-repeat;
 							}
 							.icon-refrigeradores {
 								background-image: url('image/refrigeradores.png');
-								padding-left: 30px;
-								background-size: 25px;
+								padding-left: 32px;
+								background-size: 35px;
+								background-position: -1px;
 								background-repeat: no-repeat;
 							}
 							.icon-microondas {
 								background-image: url('image/microondas.png');
-								padding-left: 30px;
-								background-size: 25px;
+								padding-left: 32px;
+								background-size: 35px;
+								background-position: -1px;
 								background-repeat: no-repeat;
 							}
 							</style>
@@ -239,22 +245,22 @@
 
 										<ul class="sf-menu sf-js-enabled sf-arrows">
 											<li class="icon-arcondicionado">
-												<a href="http://refrilar.lojavirtual.local/ar-condicionado">AR CONDICIONADO</a>
+												<a href="/ar-condicionado">AR CONDICIONADO</a>
 											</li>
 											<li class="icon-tanquinhos">
-												<a href="http://refrilar.lojavirtual.local/TANQUINHOS">TANQUINHOS</a>
+												<a href="/tanquinhos">TANQUINHOS</a>
 											</li>
 											<li class="icon-lavadoras">
-												<a href="http://refrilar.lojavirtual.local/LAVADORAS">LAVADORAS</a>
+												<a href="/lavadoras">LAVADORAS</a>
 											</li>
 											<li class="icon-ferramentas">
-												<a href="http://refrilar.lojavirtual.local/FERRAMENTAS">FERRAMENTAS</a>
+												<a href="/ferramentas">FERRAMENTAS</a>
 											</li>
 											<li class="icon-refrigeradores">
-												<a href="http://refrilar.lojavirtual.local/REFRIGERADORES">REFRIGERADORES</a>
+												<a href="/refrigeradores">REFRIGERADORES</a>
 											</li>
 											<li class="icon-microondas">
-												<a href="http://refrilar.lojavirtual.local/MICROONDAS">MICROONDAS</a>
+												<a href="/microondas">MICROONDAS</a>
 
 											</li>
 										</ul>
