@@ -223,7 +223,7 @@
 								background-repeat: no-repeat;
 							}
 							.icon-refrigeradores {
-								background-image: url('image/refrigeradores.png');
+								background-image: url('image/refrigerador2.png');
 								padding-left: 32px;
 								background-size: 35px;
 								background-position: -1px;
