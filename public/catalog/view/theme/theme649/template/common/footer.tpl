@@ -3,11 +3,34 @@
   <img src="/image/pagseguro-line.png" style="width: 100%;" width="100%">
 </div>
 
+
+<div style="background-color: #e1e2dd; ">
+
+	<div style="margin: auto; padding: 30px; width:1170px;max-width:100%;list-style:none; transition: none;overflow:hidden;">
+		<div style="width: 33.33%; float: left;">
+			<i style="font-size: 36px; float: left; position: absolute; margin-top: 12px;" class="fa fa-thumbs-up" aria-hidden="true"></i>
+			<div style="float: left; margin-left: 50px; width: 100%; font-weight: bold;">Compra 100% segura</div>
+			<div style="float: left; margin-left: 50px; width: 100%;">Qualidade no atendimento</div>
+		</div>
+		<div style="width: 33.33%; float: left;">
+			<i style="font-size: 36px; float: left; position: absolute; margin-top: 12px;" class="fa fa-archive" aria-hidden="true"></i>
+			<div style="float: left; margin-left: 50px; width: 100%; font-weight: bold;">Embalagens discretas</div>
+			<div style="float: left; margin-left: 50px; width: 100%;">Privacidade 100% garantida</div>
+		</div>
+		<div style="width: 33.33%; float: left;">
+			<i style="font-size: 36px; float: left; position: absolute; margin-top: 12px;" class="fa fa-truck" aria-hidden="true"></i>
+			<div style="float: left; margin-left: 50px; width: 100%; font-weight: bold;">Onde estamos?</div>
+			<div style="float: left; margin-left: 50px; width: 100%;">Porto Alegre - RS - Caixa Postal: 18489 - CEP: 90230-970</div>
+		</div>
+	</div>
+
+</div>
+
 <footer>
 
     <div class="container">
         <div class="row" style="padding-bottom: 30px;">
-            <div class="col-xs-6 col-sm-4 col-md-2">
+            <div class="col-xs-6 col-sm-4 col-md-3">
                 <?php if ($informations) { ?>
                     <div class="footer_box">
                         <h5><?php echo $text_information; ?></h5>
@@ -21,7 +44,7 @@
                     </div>
                 <?php } ?>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-2">
+            <div class="col-xs-6 col-sm-4 col-md-3">
                 <div class="footer_box">
                     <h5><?php echo $text_service; ?></h5>
                     <ul class="list-unstyled">
@@ -37,7 +60,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-2">
+<?php /*
+            <div class="col-xs-6 col-sm-4 col-md-3">
                 <div class="footer_box">
                     <h5><?php echo $text_extra; ?></h5>
                     <ul class="list-unstyled">
@@ -56,7 +80,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-2">
+*/ ?>
+            <div class="col-xs-6 col-sm-4 col-md-3">
                 <div class="footer_box">
                     <h5><?php echo $text_account; ?></h5>
                     <ul class="list-unstyled">
@@ -76,16 +101,16 @@
                 </div>
             </div>
 
-            <div class="col-xs-6 col-sm-4 col-md-4" style="padding-left: 84px;">
+            <div class="col-xs-6 col-sm-4 col-md-3">
                 <div class="logo-block">
                     <a href="./"><img src="image/catalog/logo_branco.png" alt="" style="max-width: 170px; margin-left: 30px;"></a>
                 </div>
-                <address>
+                <?php /* <address>
                     <i class="material-icons-location_on"></i>
                     <a href="//maps.google.com/?q=<?php echo(strip_tags($address)); ?>">
                         <?php echo $address ?>
                     </a>
-                </address>
+                </address> */ ?>
                 <address>
                     <i class="material-icons-phone"></i>
                     <a href="callto:<?php echo $telephone; ?>"><?php echo $telephone; ?></a>
@@ -108,23 +133,26 @@
             -->
         </div>
 
-    </div>
 
-    <div class="copyright bot-line" style="margin-left: 15px; margin-right: 15px; margin: auto; width: 1170px; color: #333">
-        <div style="width: 60%; padding-top: 30px; float: left; padding-bottom: 27px;">
-            <?php echo $powered; ?><!-- [[%FOOTER_LINK]] -->
-        </div>
 
-        <div style="width: 40%; float: left; padding-top: 25px; text-align: right;">
-
-          <a href="http://pagseguro.uol.com.br" target="_blank">
-            <img src="/image/pagseguro.png" alt="PagSeguro" height="26" style="border: 0px; margin-right: 20px; height: 26px;">
-          </a>
-
-          <a href="http://www.correios.com.br/" target="_blank">
-            <img src="/image/correios.png" alt="Correios"  height="26" style="border: 0px; height: 26px;">
-          </a>
+      <div class="copyright bot-line" style="margin-left: 15px; margin-right: 15px; margin: auto; width: 1170px; color: #333">
+          <div style="width: 60%; padding-top: 30px; float: left; padding-bottom: 27px;">
+              <?php echo $powered; ?><!-- [[%FOOTER_LINK]] -->
           </div>
+
+          <div style="width: 40%; float: left; padding-top: 25px; text-align: right;">
+
+            <a href="http://pagseguro.uol.com.br" target="_blank">
+              <img src="/image/pagseguro.png" alt="PagSeguro" height="26" style="border: 0px; margin-right: 20px; height: 26px; -webkit-filter: grayscale(1); filter: grayscale(1);">
+            </a>
+
+            <a href="http://www.correios.com.br/" target="_blank">
+              <img src="/image/correios.png" alt="Correios"  height="26" style="border: 0px; height: 26px; -webkit-filter: grayscale(1); filter: grayscale(1);">
+            </a>
+            </div>
+      </div>
+
+
     </div>
 
 
