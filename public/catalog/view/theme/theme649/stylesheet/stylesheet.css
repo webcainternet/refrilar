@@ -3494,9 +3494,6 @@ input[type="checkbox"][name="agree"] + label:before, input[type="checkbox"][name
 /*========================================================
                       Banners
 =========================================================*/
-.banner-box {
-  border: solid 5px #FFF;
-}
 .banners > div .banner-box {
   position: relative;
 }
@@ -3525,7 +3522,7 @@ input[type="checkbox"][name="agree"] + label:before, input[type="checkbox"][name
   transition: all 0.5s ease;
 }
 .banners > div .s-desc h2 {
-  font-size: 46px;
+  font-size: 28px;
   color: #12497e;
   margin-bottom: 5px;
 }
@@ -3534,7 +3531,7 @@ input[type="checkbox"][name="agree"] + label:before, input[type="checkbox"][name
   text-transform: uppercase;
   display: block;
   font-weight: 500;
-  font-size: 36px;
+  font-size: 28px;
   color: #FAB434;
 }
 .banners > div .s-desc h2 + span {
