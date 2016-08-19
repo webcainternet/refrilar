@@ -25,7 +25,7 @@ $qtd_parcelas = 6;
 $juros = 0;
 $moeda_da_loja = 'R$ ';
 $tipo_de_calculo = 0;
-$parcela_minima = 29.00;
+$parcela_minima = 5.00;
 
 if (!isset($product['price'])) {
 	$product['price'] = $price;
