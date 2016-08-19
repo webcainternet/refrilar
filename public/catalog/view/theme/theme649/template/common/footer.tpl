@@ -143,11 +143,11 @@
           <div style="width: 40%; float: left; padding-top: 25px; text-align: right;">
 
             <a href="http://pagseguro.uol.com.br" target="_blank">
-              <img src="/image/pagseguro.png" alt="PagSeguro" height="26" style="border: 0px; margin-right: 20px; height: 26px; -webkit-filter: grayscale(1); filter: grayscale(1);">
+              <img src="/image/pagseguro-white.png" alt="PagSeguro" height="26" style="border: 0px; margin-right: 20px; height: 26px;">
             </a>
 
             <a href="http://www.correios.com.br/" target="_blank">
-              <img src="/image/correios.png" alt="Correios"  height="26" style="border: 0px; height: 26px; -webkit-filter: grayscale(1); filter: grayscale(1);">
+              <img src="/image/correios-white.png" alt="Correios"  height="26" style="border: 0px; height: 26px;">
             </a>
             </div>
       </div>
