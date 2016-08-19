@@ -37,7 +37,7 @@
 	<div style="margin: auto; padding: 30px 30px 15px 30px; width:1170px;max-width:100%;list-style:none; transition: none;overflow:hidden;color: #444;">
     <div class="header-bottom-item">
   		<i style="font-size: 36px; float: left; position: absolute; margin-top: 10px;" class="fa fa-credit-card" aria-hidden="true"></i>
-  		<div style="float: left; min-height: 60px; margin-left: 50px; width: 74px; text-align: center; font-size: 44px; font-weight: bold; padding-top: 8px;">10x</div>
+  		<div style="float: left; min-height: 60px; margin-left: 50px; width: 74px; text-align: center; font-size: 44px; font-weight: bold; padding-top: 8px;">6x</div>
   		<div style="float: left; margin-left: 10px; font-weight: bold;">Sem Juros</div>
   		<div style="float: left; margin-left: 10px; ">No cartão</div>
   	</div>

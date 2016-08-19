@@ -21,11 +21,11 @@ font-weight: 500;
   1 = Tabela Price (PagSeguro e outros)
 */
 
-$qtd_parcelas = 5;
+$qtd_parcelas = 6;
 $juros = 0;
 $moeda_da_loja = 'R$ ';
 $tipo_de_calculo = 0;
-$parcela_minima = 5.00;
+$parcela_minima = 29.00;
 
 if (!isset($product['price'])) {
 	$product['price'] = $price;
