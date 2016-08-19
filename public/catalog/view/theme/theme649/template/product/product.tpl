@@ -162,6 +162,7 @@
                                 <?php } else { ?>
                                     <span class="price-old"><?php echo $price; ?></span>
                                 <?php } ?>
+                                <?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme649/parcelamento.php'; ?>
                                 <?php if ($tax) { ?>
                                     <span class="tax"><?php echo $text_tax; ?> <?php echo $tax; ?></span>
                                 <?php } ?>
@@ -906,7 +907,7 @@
                                     </a>
                                 </div>
                                 <div class="caption">
-                                    
+
 
                                     <!-- Rating -->
                                     <?php if ($product['rating']) { ?>
@@ -929,18 +930,18 @@
                                     <div class="description"><?php echo $product['description']; ?></div>
                                     <!-- price -->
                                     <?php if ($product['price']) { ?>
-                                        <p class="price">
-                                            <?php if (!$product['special']) { ?>
-                                                <?php echo $product['price']; ?>
-                                            <?php } else { ?>
-                                                <span class="price-new"><?php echo $product['special']; ?></span> <span
-                                                    class="price-old"><?php echo $product['price']; ?></span>
-                                            <?php } ?>
-                                            <?php if ($product['tax']) { ?>
-                                                <span
-                                                    class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
-                                            <?php } ?>
-                                        </p>
+                                      <p class="price">
+                                          <?php if (!$product['special']) { ?>
+                                              <?php echo $product['price']; ?>
+                                          <?php } else { ?>
+                                              <span class="price-new"><?php echo $product['special']; ?></span> <span class="price-old"><?php echo $product['price']; ?></span>
+                                          <?php } ?>
+                                          <?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme649/parcelamento.php'; ?>
+                                          <?php if ($product['tax']) { ?>
+                                              <span
+                                                  class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
+                                          <?php } ?>
+                                      </p>
                                     <?php } ?>
                                 </div>
                                 <div class="cart-button">
@@ -1173,4 +1174,3 @@
 </script>
 
 <?php echo $footer; ?>
-

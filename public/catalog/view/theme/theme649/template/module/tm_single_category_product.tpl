@@ -445,7 +445,7 @@
                                             <div class="name name__aside">
                                                 <a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a>
                                             </div>
-                                           
+
                                             <?php if ($product['rating']) { ?>
                                                 <div class="rating">
                                                     <?php for ($i = 1; $i <= 5; $i++) { ?>
@@ -479,7 +479,7 @@
                                                     <?php } ?>
                                                 </div>
                                             <?php } ?>
-                                            
+
                                         </div>
                                         <div class="cart-button">
                                             <button class="product-btn-add" type="button" data-toggle="tooltip" title="<?php echo $button_cart; ?>"
@@ -916,8 +916,8 @@
                                                     <?php } ?>
                                                 </div>
                                             <?php } ?>
-                                           
-                                            
+
+
                                         </div>
                                         <div class="cart-button">
                                             <button class="product-btn-add" type="button" data-toggle="tooltip" title="<?php echo $button_cart; ?>"
@@ -1353,8 +1353,8 @@
                                                     <?php } ?>
                                                 </div>
                                             <?php } ?>
-                                            
-                                            
+
+
                                         </div>
                                         <div class="cart-button">
                                             <button class="product-btn-add" type="button" data-toggle="tooltip" title="<?php echo $button_cart; ?>"
@@ -1790,8 +1790,8 @@
                                                     <?php } ?>
                                                 </div>
                                             <?php } ?>
-                                            
-                                            
+
+
                                         </div>
                                         <div class="cart-button">
                                             <button class="product-btn-add" type="button" data-toggle="tooltip" title="<?php echo $button_cart; ?>"
@@ -1820,4 +1820,3 @@
         </div>
     </div>
 </div>
-
