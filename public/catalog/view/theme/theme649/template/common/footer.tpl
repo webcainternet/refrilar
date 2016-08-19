@@ -4,24 +4,61 @@
 </div>
 
 
+
+
+<style>
+.header-bottom {
+	background-color: #f8f9f3;
+}
+.header-bottom-item {
+	width: 275px;
+	display: inline-block;
+	padding: 5px 15px 15px 15px;
+	color: #555;
+	height: 60px;
+}
+#column-left .category {
+	padding-top: 90px;
+}
+.category .box-heading {
+	display: none;
+}
+</style>
+
+<div class="container header-bottom">
+
+</div>
+
+
+
+
 <div style="background-color: #e1e2dd; ">
 
-	<div style="margin: auto; padding: 30px; width:1170px;max-width:100%;list-style:none; transition: none;overflow:hidden;color: #444;">
-		<div style="width: 33.33%; float: left;">
-			<i style="font-size: 36px; float: left; position: absolute; margin-top: 12px;" class="fa fa-thumbs-up" aria-hidden="true"></i>
-			<div style="float: left; margin-left: 50px; width: 100%; font-weight: bold;">Compra 100% segura</div>
-			<div style="float: left; margin-left: 50px; width: 100%;">Qualidade no atendimento</div>
-		</div>
-		<div style="width: 33.33%; float: left;">
-			<i style="font-size: 36px; float: left; position: absolute; margin-top: 12px;" class="fa fa-archive" aria-hidden="true"></i>
-			<div style="float: left; margin-left: 50px; width: 100%; font-weight: bold;">Embalagens discretas</div>
-			<div style="float: left; margin-left: 50px; width: 100%;">Privacidade 100% garantida</div>
-		</div>
-		<div style="width: 33.33%; float: left;">
-			<i style="font-size: 36px; float: left; position: absolute; margin-top: 12px;" class="fa fa-truck" aria-hidden="true"></i>
-			<div style="float: left; margin-left: 50px; width: 100%; font-weight: bold;">Onde estamos?</div>
-			<div style="float: left; margin-left: 50px; width: 100%;">Porto Alegre - RS - Caixa Postal: 18489 - CEP: 90230-970</div>
-		</div>
+	<div style="margin: auto; padding: 30px 30px 15px 30px; width:1170px;max-width:100%;list-style:none; transition: none;overflow:hidden;color: #444;">
+    <div class="header-bottom-item">
+  		<i style="font-size: 36px; float: left; position: absolute; margin-top: 10px;" class="fa fa-credit-card" aria-hidden="true"></i>
+  		<div style="float: left; min-height: 60px; margin-left: 50px; width: 74px; text-align: center; font-size: 44px; font-weight: bold; padding-top: 8px;">10x</div>
+  		<div style="float: left; margin-left: 10px; font-weight: bold;">Sem Juros</div>
+  		<div style="float: left; margin-left: 10px; ">No cartão</div>
+  	</div>
+  	<div class="header-bottom-item">
+  		<i style="font-size: 36px; float: left; position: absolute; margin-top: 10px;" class="fa fa-barcode" aria-hidden="true"></i>
+  		<div style="float: left; min-height: 60px; margin-left: 50px; width: 74px; text-align: center; font-size: 44px; font-weight: bold; padding-top: 8px;">5%</div>
+  		<div style="float: left; margin-left: 10px; font-weight: bold;">De Desconto</div>
+  		<div style="float: left; margin-left: 10px; ">No boleto</div>
+  	</div>
+  	<div class="header-bottom-item">
+  		<i style="font-size: 36px; float: left; position: absolute; margin-top: 10px;" class="fa fa-usd" aria-hidden="true"></i>
+  		<div style="float: left; min-height: 60px; margin-left: 50px; width: 55px; text-align: center; font-weight: bold;">FRETE GRÁTIS</div>
+  		<div style="float: left; min-width: 120px; margin-left: 10px; ">Nas compras acima</div>
+  		<div style="float: left; min-width: 120px; margin-left: 10px; font-weight: bold;">de R$ 129,90</div>
+  	</div>
+  	<div class="header-bottom-item">
+  		<i style="font-size: 36px; float: left; position: absolute; margin-top: 10px;" class="fa fa-truck" aria-hidden="true"></i>
+  		<div style="float: left; min-height: 60px; margin-left: 50px; width: 55px; text-align: center; font-weight: bold;">FRETE GRÁTIS</div>
+  		<div style="float: left; min-width: 120px; margin-left: 10px; ">Nas compras acima</div>
+  		<div style="float: left; min-width: 120px; margin-left: 10px; font-weight: bold;">de R$ 129,90</div>
+  	</div>
 	</div>
 
 </div>
