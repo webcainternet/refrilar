@@ -244,24 +244,23 @@
 										<!--    <h3>--><!--</h3>-->
 
 										<ul class="sf-menu sf-js-enabled sf-arrows">
+											<li class="icon-refrigeradores">
+												<a href="/refrigeradores">REFRIGERADORES</a>
+											</li>
+											<li class="icon-lavadoras">
+												<a href="/lavadoras">LAVADORAS</a>
+											</li>
+											<li class="icon-microondas">
+												<a href="/microondas">MICROONDAS</a>
+											</li>
+											<li class="icon-ferramentas">
+												<a href="/ferramentas">FERRAMENTAS</a>
+											</li>
 											<li class="icon-arcondicionado">
 												<a href="/ar-condicionado">AR CONDICIONADO</a>
 											</li>
 											<li class="icon-tanquinhos">
 												<a href="/tanquinhos">TANQUINHOS</a>
-											</li>
-											<li class="icon-lavadoras">
-												<a href="/lavadoras">LAVADORAS</a>
-											</li>
-											<li class="icon-ferramentas">
-												<a href="/ferramentas">FERRAMENTAS</a>
-											</li>
-											<li class="icon-refrigeradores">
-												<a href="/refrigeradores">REFRIGERADORES</a>
-											</li>
-											<li class="icon-microondas">
-												<a href="/microondas">MICROONDAS</a>
-
 											</li>
 										</ul>
 									</div>
