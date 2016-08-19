@@ -3494,6 +3494,9 @@ input[type="checkbox"][name="agree"] + label:before, input[type="checkbox"][name
 /*========================================================
                       Banners
 =========================================================*/
+.banner-box {
+  border: solid 5px #FFF;
+}
 .banners > div .banner-box {
   position: relative;
 }
@@ -3543,11 +3546,12 @@ input[type="checkbox"][name="agree"] + label:before, input[type="checkbox"][name
 }
 
 .banners .banner-box a:hover {
-  -webkit-box-shadow: inset 0 0 130px 60px rgba(32, 40, 46, 0.6);
-  -moz-box-shadow: inset 0 0 130px 60px rgba(32, 40, 46, 0.6);
-  box-shadow: inset 0 0 130px 60px rgba(32, 40, 46, 0.6);
+  border: solid 5px #12497e;
 }
 .banners .banner-box a:hover img {
+  opacity: 0.5;
+}
+.banners .banner-box img {
   opacity: 0.5;
 }
 
